@@ -1,0 +1,37 @@
+
+.new-table{
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+
+.new-header {
+    background-color: teal;
+}
+
+
+.new-headings {
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+.new-tb {
+    background-color: lightgray;
+}
+
+
+.new-body {
+    padding: 8px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+.new-tb:hover {
+    background-color: lightskyblue;
+}

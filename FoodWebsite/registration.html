@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html >
+<head>
+   
+    <title>Login page</title>
+    <style>
+        body{
+            background-color:#fff7ec;
+            padding:0;
+            margin:0;
+            font-family:"Segoe UI",Arial,sans-serif;;
+            
+        }
+        h1{
+            font-size:40px;
+            margin-left:40%;
+            color:red;
+        }
+        form{
+          margin-left:25%;
+            font-size:20px;
+            padding:20px;
+            width:50%;
+            border:2px solid black;
+            border-radius:10px;
+            box-shadow:2px 2px 10px gray;
+            background-color:#fff7ec;
+        }
+        input{
+            width:90%;
+            padding:10px;
+            margin-top:5px;
+            margin-bottom:15px;
+            border:1px solid gray;
+            border-radius:5px;
+            font-size:16px;
+        }
+       button[type="submit"]{
+            background-color:red;
+            color:white;
+            padding:10px 20px;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+        }
+        p{
+            margin-left:35%;
+            font-size:18px;
+        }
+
+        </style>
+</head>
+<body>
+
+
+    <h1>Register To FoodFast</h1>
+    <form method="POST">
+        <div>
+        <label for="name" >Username:</label><br>
+        <input type="text"  name="cname" ><br><br>
+        <label type="email">Email:</label><br>
+        <input type="email"  name="cemail" ><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" name="cpassword" ><br><br>
+        <label>Phone Number:</label>
+        <input type="tel" name="cphone" placeholder="Enter your Phone Number"><br><br>
+       <button type="submit" name="register" formaction="food.php" >
+        signup</button>
+       </div>
+        </form>
+        <p>ARE YOU ALREADY REGISTERED?<a href="loginfoodfast.html">Click here</a></p>
+    
+    
+</body>
+</html>

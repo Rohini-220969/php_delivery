@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online food delievery</title>
+
+        <link rel="stylesheet " href="food.css">
+    </head>
+    <body>
+      <header class="header">
+        <div class="left-header">
+        <h2 class="logo">FoodFast</h2>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+      </nav>
+    </div>
+    <div class="right-header">
+        <a href="registration.html"  class="login-btn" >Register</a>
+    </div>
+
+        </header>
+        <section class="hero" id="home">
+            <div class="hero-text">
+            <h1>Online Fastest<br><span>Food Delivery</span></h1>
+            <p>Experience the best food delivery service with FoodFast. Choose from a wide variety of cuisines and enjoy hot, fresh meals delivered quickly to your home or office.</p>
+            <a href="#menu" class="btn">Order Now</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="images/food.jpg" alt=" Food Delievery">
+            </div>
+        </section>
+        <section class="dynamic-section">
+            <h2>Today's Special</h2>
+            <p><strong> FoodName:  </strong> <span id="foodname"></span></p>
+            <p><strong> Price:</strong> &#8377; <span id="foodprice"></span></p>
+            <p><strong>Status:</strong><span id="foodstatus"></span></p>
+            <p><strong >Orders Today:</strong><span id="ordertoday"></span></p>
+            <button onclick="placeOrder()" class="cart-btn">Order Special</button>
+
+        </section>
+        <section class="popular-section">
+            <h2>Popular Items</h2>
+            <div class="popular-container">
+                <div class="popular-card">
+                    <img src="images/cheeseburger.jpeg" alt="chesseBurger">
+                    <h3>Cheese Burger</h3>
+                    <p class="price">₹190</p>
+                    <a href="lab2.html">
+                    <button  onclick="addcart('chesseBurger',190)"class="cart-btn">Add to Cart</button></a>
+                </div>
+            <div class="popular-card">
+                   <img src="images/frypiece.jpeg"  alt="biryani">
+                    <h3>Chiken Fry Piece Biryani</h3>
+                    <p class="price">₹320</p>
+                    <a href="lab2.html">
+                    <button  onclick="addcart('chicken fry biryani',320)"class="cart-btn">Add to Cart</button></a>
+                </div>
+            <div class="popular-card">
+               
+                    <img src="images/chickennoodles.jpeg" alt="chiken Noodles">
+                    
+
+                    <h3>Chiken Noodles</h3>
+                    <p class="price">₹180</p>
+                     <a href="lab2.html">
+                    <button onclick="addcart('chicken noodles',180)" class="cart-btn">Add to Cart</button>
+                     </a>
+                </div>
+
+</div>
+</section>
+
+
+        <section class="menu-section" id="menu">
+
+            <h2 align="center">View Our Menu</h2>
+            <div class="menu-container">
+            <div class="menu-card">
+                <img src="images/pizza.jpeg" alt="Pizza">
+                <h3> Pizza</h3>
+                <a href="pizza.html" class="menu-button">Read More</a>
+            </div>
+            <div class="menu-card">
+                <img src="images/bug.jpeg" alt="Burger">
+                <h3>Burger</h3>
+                <a href="burger.html" class="menu-button">Read More</a>
+            </div>
+            <div class="menu-card">
+                <img src="images/biryani.jpeg" alt="Biryani">
+                <h3>Biryani</h3>
+                <a href="biryani.html" class="menu-button">Read More</a>
+            </div>
+            <div class="menu-card">
+                <img src="images/nood.jpeg" alt="Noodles">
+                <h3>Noodles</h3>
+                <a href="noodles.html" class="menu-button">Read More</a>
+            </div>
+            <div class="menu-card">
+                <img src="images/friedrice.jpeg" alt="Fried Rice">
+                <h3>Fried Rice</h3>
+                <a href="friedrice.html" class="menu-button">Read More</a>
+            </div>
+            <div class="menu-card">
+                <img src="images/pasta.jpeg" alt="Pasta">
+                <h3>Pasta</h3>
+                <a href="pasta.html" class="menu-button">Read More</a>
+            </div>
+            </div>
+        </section>
+        
+
+
+
+
+         <section class="about-section" id="about">
+            <h2>About Us</h2>
+            <p class="about-item">
+                At <span>FoodFast</span>,we deliver fresh delicious food quickly  and realibly.
+                Our goal is to connect you with the best restrants around you.
+            </p>
+            <div class="about-features">
+                <div class="about-box">
+                    <h3>&#128640; Fast Delievery</h3>
+                    <p> Get your food delivered hot and fresh in no time.</p>
+                </div>
+                <div class="about-box">
+                    <h3>&#127869; Quality Food</h3>
+                    <p> Only the best ingredients from trusted restraunts.</p>
+                </div>
+                <div class="about-box">
+                    <h3>&#128176; Affordable Prices</h3>
+                    <p> Delicious meals that won't break the bank.</p>
+                </div>
+                <div class="about-box">
+                    <h3>&#128205; Easy Ordering</h3>
+                    <p>Order food easily from your phone or laptop.</p>
+                </div>
+                <div class="about-box">
+                    <h3>&#128222; 24/7 Support</h3>
+                    <p> We're here to help you anytime, anywhere.</p>
+                </div>
+
+                </div>
+                <div class="about-status">
+                    <div><h3> 500+</h3>
+                        <p>Restaurants</p>
+                        </div>  
+                    <div><h3> 10K+</h3>
+                        <p>Happy Customers</p>
+                        </div>
+                    <div><h3> 50+</h3>
+                        <p>Delivery Partners</p>
+                        </div>
+                        <div>
+                            <h3>30 min</h3>
+                            <p>Average Delivery Time</p>
+                        </div>
+
+                </div>
+               </div>
+
+        </section> 
+
+        <section class="contact-section" id="contact">
+            <h2>Contact Us</h2>
+            <p> We're here to help you 24/7.</p>
+            <div class="contact-cards">
+                <div class="contact-card">
+                    <h3>&#128222; Call Us</h3>
+                    <p>+1 234 567 890</p>
+                </div>
+                <div class="contact-card">
+                    <h3>&#9993; Email</h3>
+                    <p>support@foodfast.com</p>
+                        
+                    </div>
+                <div class="contact-card">
+                    <h3>&#127968; Location</h3>
+                    <p>Vijaywada,India</p>
+                </div>
+
+            </div>
+            <div>
+            <form class="contact-form" onsubmit="submitcontactform();return false;">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="social-links">
+                <a href="#">&#x1F426;Twitter</a>
+                <a href="#">&#x1F4F7; Instagram</a>
+                <a href="#">&#x1F465; Facebook</a>
+                <a href="#">&#x1F4F1; Whatsapp</a>
+            </div>
+
+        </section>
+        <footer class="footer">
+            <p>&copy; 2025 FoodFast. All rights reserved.</p>
+        </footer>
+    </body>
+    <script src="script.js">
+        
+
+        </script>
+</html>

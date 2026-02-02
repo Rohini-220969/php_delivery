@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        body{
+            background-color:#fff7ec;
+            padding:0;
+            margin:0;
+            font-family:"Segoe UI",Arial,sans-serif;;
+            
+        }
+        h1{
+            font-size:40px;
+            margin-left:40%;
+            color:red;
+        }
+        form{
+          margin-left:25%;
+            font-size:20px;
+            padding:20px;
+            width:50%;
+            border:2px solid black;
+            border-radius:10px;
+            box-shadow:2px 2px 10px gray;
+            background-color:#fff7ec;
+        }
+        input{
+            width:90%;
+            padding:10px;
+            margin-top:5px;
+            margin-bottom:15px;
+            border:1px solid gray;
+            border-radius:5px;
+            font-size:16px;
+        }
+        input[type="submit"]{
+            background-color:red;
+            color:white;
+            
+            cursor:pointer;
+        }
+        </style>
+</head>
+<body>
+    <h1>Login To FoodFast</h1>
+    <form method="post" action ="homefood1.php">
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="uname" required><br><br>
+        <label type="email" for="email">Email:</label><br>
+        <input type="email" id="email" name="uemail" required><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="upassword" required><br><br>
+        
+        <input type="submit" value="Login" name="login">
+        </form>
+    </div>
+    
+</body>
+</html>

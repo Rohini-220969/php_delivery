@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        body{
+            font-family:"Segeo UI ",Arial,sans-serif
+        }
+        h1{
+            color:#333;
+        }
+        .table-style {
+            width: 25%;
+            border: 4px solid blue;
+            border-collapse: collapse;
+            text-align: center;
+            margin-left: 38%;
+            border:4px;
+        }
+        .table-header {
+           background-color:rgb(8, 99, 184);
+           color:white;
+        }
+        .headings {
+            border: 2px solid  blue ;
+            padding: 25px;
+        }
+        
+        .table-body {
+            border: 2px solid  blue;
+            padding: 5px;
+        }
+        .table-body:hover{
+            background-color: lightgrey;
+        }
+        </style>
+        <link rel="stylesheet " href="table.css">
+</head>
+<body style="text-align:center;">
+    <h1>Table With Inline style </h1>
+    <table style="width:25% ;border: 2px solid black; border-collapse: collapse; text-align:center;margin-left:38%; " >
+
+        <tr>
+            <th style="border:1px solid black; padding:10px;background:grey;"> S.no </th>
+            <th style="border:1px solid black;padding:10px;background:grey;"> Name </th>
+            <th style="border:1px solid black; padding:10px;background:grey;"> Age </th>
+            <th style="border:1px solid black; padding:10px;background:grey;"> City </th>
+        </tr>
+        <tr >
+            <td style="border:1px solid black;padding:8px">1</td>
+            <td style="border:1px solid black;padding:8px">Rohini</td>
+            <td style="border:1px solid black;padding:8px">18</td>
+            <td style="border:1px solid black;padding:8px">East Godavari</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid black;padding:8px">2</td>
+            <td style="border:1px solid black;padding:8px">Sahithi</td>
+            <td style="border:1px solid black;padding:8px">19</td>
+            <td style="border:1px solid black;padding:8px">Vijayawada</td>
+        </tr>
+        <tr>
+            <td style="border:1px solid black;padding:8px">3</td>
+            <td style="border:1px solid black;padding:8px">Charanya</td>
+            <td style="border:1px solid black;padding:8px" >20</td>
+            <td style="border:1px solid black;padding:8px">Hyderabad</td>  
+        </tr>
+        <tr > 
+            <td style="border:1px solid black;padding:8px">4</td>
+            <td style="border:1px solid black;padding:8px">Hepsi</td>
+            <td style="border:1px solid black;padding:8px">21</td>
+            <td style="border:1px solid black;padding:8px">Chennai</td>
+        </tr>
+
+
+    </table>
+
+    <h1>Table With Internal CSS</h1>
+    <table class="table-style" >
+        <tr class="table-header">
+            <th class="headings"> S.no </th>
+            <th class="headings"> Food-Item </th>
+            <th class="headings"> Cost </th>
+            <th class="headings"> Rating </th>
+        </tr>
+        <tr class="table-row">
+            <td class="table-body">1</td>
+            <td class="table-body">pizza</td>
+            <td class="table-body">250</td>
+            <td class="table-body">4.5</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-body">2</td>
+            <td class="table-body">Burger</td>
+            <td class="table-body">300</td>
+            <td class="table-body">3.5</td>
+        </tr>
+        <tr class="table-row">
+            <td class="table-body">3</td>
+            <td class="table-body">Pasta</td>
+            <td class="table-body">200</td>
+            <td class="table-body">4.0</td>  
+        </tr>
+        <tr class="table-row"> 
+            <td class="table-body">4</td>
+            <td class="table-body">Salads</td>
+            <td class="table-body">250</td>
+            <td class="table-body">5.0</td>
+        </tr >
+    </table>
+     <h1>Table With External CSS</h1>
+    <table class="new-table">
+        <tr class="new-header">
+            <th class="new-headings"> Id </th>
+             <th class="new-headings"> Name </th>
+              <th class="new-headings"> Salary </th>
+              </tr>
+        <tr class="new-tb">
+            <td class="new-body"> 22021</td>
+            <td class="new-body">Ramya</td>
+             <td class="new-body">25,000</td>
+
+
+        </tr>
+        <tr class="new-tb">
+            <td class="new-body">22022</td>
+            <td class="new-body">Ravi</td>
+             <td class="new-body">30,000</td>
+
+
+        </tr>
+        <tr class="new-tb">
+            <td class="new-body">22023</td>
+            <td class="new-body"> Rajesh</td>
+             <td class="new-body">35,000</td>
+
+
+        </tr>
+        <tr class="new-tb">
+            <td class="new-body">22024</td>
+            <td class="new-body"> Ramesh</td>
+             <td class="new-body">40,000</td>
+
+
+        </tr>
+        
+
+           
+        
+</body>
+</html>
