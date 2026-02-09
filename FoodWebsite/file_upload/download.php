@@ -1,0 +1,18 @@
+<?php
+if(isset($_GET['file'])){
+    $filename=$_GET['file'];
+    $filepath="upload/".$filename;
+    if(file_exists($filepath)){
+        header('Content-Description:File Transfer');
+        header('Content-Type:application/octet-stream');
+        header('Content-Disposition:attachment;filename="'.basename($filepath).'"');
+      
+        header('Content-Length:'.filesize($filepath));
+        readfile($filepath);
+        exit;
+    }
+    else{
+        echo "file does not exist";
+    }
+}
+?>
